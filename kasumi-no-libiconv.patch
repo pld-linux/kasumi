@@ -1,0 +1,10 @@
+--- kasumi-2.5/configure.in.orig	2009-07-13 05:41:26.000000000 +0200
++++ kasumi-2.5/configure.in	2012-09-11 21:12:31.501728092 +0200
+@@ -28,7 +28,6 @@
+ 
+ dnl Checks for libraries.
+ AM_PATH_GTK_2_0(2.6.0, CFLAGS="$CFLAGS $GTK_CFLAGS" CPPFLAGS="$CPPFLAGS $GTK_CFLAGS" LIBS="$LIBS $GTK_LIBS", AC_MSG_ERROR(GTK+ >= 2.6.0 not found.))
+-AC_CHECK_LIB(iconv, iconv)
+ AC_CHECK_LIB(anthydic, anthy_dic_util_init)
+ AC_CHECK_LIB(anthy, anthy_get_version_string)
+ 
