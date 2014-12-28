@@ -12,7 +12,7 @@ URL:		http://kasumi.sourceforge.jp/
 BuildRequires:	anthy-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2:2.6.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	pkgconfig
