@@ -2,7 +2,7 @@ Summary:	An anthy dictionary management tool
 Summary(pl.UTF-8):	Narzędzie do zarządzania słownikami Anthy
 Name:		kasumi
 Version:	2.5
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/Text
 Source0:	http://jaist.dl.sourceforge.jp/kasumi/41436/%{name}-%{version}.tar.gz
