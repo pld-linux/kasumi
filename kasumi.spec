@@ -28,7 +28,7 @@ Kasumi to narzędzie do zarządzania słownikami dla systemu Anthy.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__gettextize}
